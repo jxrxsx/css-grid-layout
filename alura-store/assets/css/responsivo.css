@@ -1,0 +1,45 @@
+/* CELULARES */ 
+@media screen and (min-width: 0) {
+    .destaques__principal {
+        grid-column: 1 / 5;
+    }
+    .destaques__secundario:nth-child(2) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(3) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(4) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .destaques__secundario:nth-child(5) {
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+}
+
+/* TABLETS */ 
+@media screen and (min-width: 768px) {
+
+}
+
+/* DESKTOPS (PRINCIPALMENTE MAIS ANTIGOS) */ 
+@media screen and (min-width: 992px) {
+
+}
+
+/* DESKTOPS NOVOS E TVS */ 
+@media screen and (min-width: 1200px) {
+
+}
+
